@@ -15,7 +15,7 @@
 // @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: #012954;
+$backgroundColor: #589cde;
 $mainColor: #fff;
 $headingColor: #fff;
 
@@ -41,7 +41,7 @@ section.has-light-background {
     }
 }
 
-// --color-blue: #0096db;
+// --color-blue: #589cde;
 // --color-orange: #ff6f40;
 // --color-green: #00c58e;
 
@@ -49,3 +49,7 @@ section.has-light-background {
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.Home-logo {
+  max-width: 50%;
+}
