@@ -10,17 +10,17 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #589cde;
-  background-color: #589cde; }
+  background: #fff;
+  background-color: #fff; }
 
 .reveal {
   font-family: "SuisseIntl-Light", sans-serif;
   font-size: 38px;
   font-weight: normal;
-  color: #fff; }
+  color: #005da8; }
 
 ::selection {
-  color: #fff;
+  color: #005da8;
   background: #bfbfbf;
   text-shadow: none; }
 
@@ -39,8 +39,8 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #fff;
-  font-family: "SuisseIntl-Medium", sans-serif;
+  color: #005da8;
+  font-family: "SuisseIntl-Bold", sans-serif;
   font-weight: 400;
   line-height: 1.2;
   letter-spacing: normal;
@@ -294,14 +294,8 @@ body {
 /*********************************************
  * LOGO
  *********************************************/
-.reveal .logo {
-  position: fixed;
-  z-index: 30;
-  left: 10px;
-  top: 20px;
-  font-family: 'SuisseIntlMono-Bold', monospace;
-  font-size: .5em;
-  color: rgba(255, 255, 255, 0.2); }
 
-.Home-logo {
-  max-width: 50%; }
+
+.logo {
+  max-width: 50% !important; 
+}
