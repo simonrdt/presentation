@@ -35,8 +35,8 @@
 
 			// The "normal" size of the presentation, aspect ratio will be preserved
 			// when the presentation is scaled to fit different resolutions
-			width: 960,
-			height: 700,
+			width: 1280,
+			height: 900,
 
 			// Factor of the display size that should remain empty around the content
 			margin: 0.1,
@@ -235,7 +235,6 @@
 	 * Starts up the presentation if the client is capable.
 	 */
 	function initialize( options ) {
-
 		checkCapabilities();
 
 		if( !features.transforms2d && !features.transforms3d ) {
@@ -260,6 +259,7 @@
 			// using JavaScript to control the presentation
 			return;
 		}
+
 
 		// Cache references to key DOM elements
 		dom.wrapper = document.querySelector( '.reveal' );
@@ -388,6 +388,7 @@
 	 * to the current URL deeplink if there is one.
 	 */
 	function start() {
+
 
 		// Make sure we've got all the DOM elements we need
 		setupDOM();
